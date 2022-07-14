@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>DogLove</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="estilo.css" rel="stylesheet"/>
+</head>
+
+
+<style>
+	*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		html,body{
+			height: 100%;
+			width: 100%;
+			background-color: white;
+		}
+
+		/* Esguadro */
+
+		.esquadro{
+			width: 100%;
+			height: 100px;
+		}
+
+			.esquadro .botao{
+				width: 200px;
+				height: 60px;
+				background-color: #db8037;
+				border-radius: 40px; 
+				margin-top: -60px;
+				margin-left: 75%;
+			}
+
+			.esquadro img{
+				width: 85px;
+				height: 85px;
+				margin-top: 5px;
+				margin-left: 60px;
+
+			}
+
+				.esquadro h1{
+					color: orange;
+					margin-top: -5.4%;
+					margin-left: 10%;
+					font-size: 50px;
+					font-family: Bubble Bobble;
+				}
+
+		.painel1 img{	
+			width: 100%;
+		}
+
+		.divisao1{
+			width: 50%;
+			height: 550px;
+			margin-top: -5px;
+			box-sizing: border-box;
+			background-color: darkblue;	
+		}
+
+		.divisao1 img{
+			margin-left: 10%;
+			margin-top: 40px;
+			position: static;
+		}
+
+
+		.divisao2{
+			width: 50%;
+			height: 550px;
+			box-sizing: border-box;
+			background-color: orange;
+			margin-left: 50%;
+			margin-top: -550px;	
+		}	
+
+		.divisao2 img{
+			margin-left: 20%;
+			margin-top: 40px;
+			position: relative;
+		}
+
+
+		/* Texto */
+
+		.Projeto1 h1{
+			box-sizing: border-box;
+			font-family: rubric;
+			color: blue;
+			margin-left: 42%;
+			margin-top: 100px;
+		}
+
+			.Projeto1 h2{
+				box-sizing: border-box;
+				font-family: arial;
+				text-align: center;
+				width: 50%;
+				margin-top: 80px;
+
+			}
+
+
+
+		.Projeto2 .reflex{
+			box-sizing: border-box;			
+			margin-left: 50%;
+			margin-top: -390px;
+		}
+
+			.Projeto2 h3{
+				text-align: center;
+				font-family: arial;
+				margin-left: 110px;
+				margin-top: -73px;
+			}
+
+				.Projeto2 .mao{
+					box-sizing: border-box;			
+					margin-left: 50%;
+					margin-top: 50px;
+				}
+
+					.Projeto2 h3{
+					text-align: center;
+					font-family: arial;
+				}
+
+					.Projeto2 hr{
+						margin-top: 330px;
+					}
+
+					.Projeto2 .grafico{
+						margin-left: 50%;
+						margin-top: 80px;
+					}
+
+
+		.baby img{
+			height: 60%;
+			width: 60%;
+			margin-top: 15%;
+			margin-left: 16%;
+		}	
+
+			.baby .box1{
+				width: 55%;
+				height: 150px;
+				background-color: #db8037;
+				box-shadow: 5px 5px 5px 5px;
+				border-radius: 15px; 
+				margin-left: 23%;
+			}
+
+				.baby .box1 p{
+					color: white;
+					text-align: center;
+					font-size: 25px;
+					padding-top: 5px;
+					font-family: Bubble Bobble;
+					}
+
+						.baby .box1 h2{
+						color: white;
+						font-size: 20px;
+						padding-top: 5px;
+						padding-left: 15px;
+						text-align: left;
+						font-family: Arial;
+						}
+
+
+					.baby .box2{
+					width: 55%;
+					height: 150px;
+					background-color: #db8037;
+					box-shadow: 5px 5px 5px 5px;
+					border-radius: 15px; 
+					margin-top: 50px; 
+					margin-left: 23%;
+					}
+
+						.baby .box2 p{
+						color: white;
+						text-align: center;
+						font-size: 25px;
+						padding-top: 5px;
+						font-family: Bubble Bobble;
+						}
+
+							.baby .box2 h2{
+							color: white;
+							font-size: 20px;
+							padding-top: 5px;
+							padding-left: 15px;
+							text-align: left;
+							font-family: Arial;
+							}
+
+
+						.baby .box3{
+						width: 55%;
+						height: 150px;
+						background-color: #db8037;
+						box-shadow: 5px 5px 5px 5px;
+						border-radius: 15px; 
+						margin-top: 50px; 
+						margin-left: 23%;
+						}
+
+							.baby .box3 p{
+							color: white;
+							text-align: center;
+							font-size: 25px;
+							padding-top: 5px;
+							font-family: Bubble Bobble;
+							}
+
+							.baby .box3 h2{
+							color: white;
+							font-size: 20px;
+							padding-top: 5px;
+							padding-left: 15px;
+							text-align: left;
+							font-family: Arial;
+							}
+
+
+				.Formulario{
+					width: 100%;
+					height: 500px;
+					margin-top: 200px;
+					background-color: #db8037;
+					display: flex;
+					justify-content: center;
+				}		
+
+				.Formulario h2{
+					text-align: center;
+					font-size: 60px;
+					color: white;
+					padding-top: 30px;
+				}	
+
+					.contato{
+						width: 100%;
+						max-width: 500px;
+					}
+
+						.field{
+							width: 600px;
+							height: 80px;
+							margin-bottom: 15px;
+							border: 1px solid #DDD; 
+							border-radius: 5px;
+							font-size: 32px;
+							margin-left: -30px;
+						}
+
+							.bottom{
+								width: 600px;
+								height: 80px;
+								border: 1px solid #DDD; 
+								border-radius: 5px;
+								font-size: 35px;
+								margin-left: -30px;
+							}
+
+
+
+		.Cartao{
+			width: 80%;
+			height: 580px;
+			background-color: #db8037;
+			border-radius: 30px;
+			margin-left: 10%;
+			margin-top: 14%;
+			display: flex;
+			align-items: right;
+			box-sizing: border-box;
+		}
+
+			.Cartao img{
+				width: 230px;
+				height: 360px;
+				margin-left: -33%;
+				margin-top: 15%;
+				border-radius: 15px;
+				transform: rotate(-12deg);
+			}
+
+				.Cartao h2{
+					padding-top: 4%;
+					padding-left: 10%;
+					font-size: 60px;
+					font-family: Rubric;
+					color: white;
+					position: static;
+				}
+
+					.Cartao h3{
+						padding-top: 25%;
+						text-align: left;
+						font-family: Rubric;
+						color: white;
+					}
+
+
+		/* End */
+
+		.End-painel{
+			width: 100%;
+			height: 320px;
+			box-sizing: border-box;
+			background-color: #db8037;
+			margin-top: 300px;
+		}
+
+		.parte1{
+			display: flex;
+		}
+
+
+			.parte1 .certik img{
+				width: 100%;
+				height: 200px;
+				color: white;
+				margin-top: 1%;
+			}
+
+				.parte1 .logomini img{
+					width: 90px;
+					height: 90px;
+					margin-top: 50px;
+					margin-left: 280px;
+				}
+
+		.parte2{
+			display: flex;
+		}			
+
+			.parte2 .e-mail{
+				width: 100%;
+				max-width: 300px;
+				flex-direction: column;
+				display: flex;
+				padding-left: 80px;
+			}
+
+			.parte2 h2{
+				color: white;
+				font-size: 12px;
+				text-align: left;
+				padding-left: 37%;
+				margin-top: -30px;
+			}
+
+
+		.parte3	img{
+			width: 40px;
+			height: 40px;
+			margin-top: -30px;
+			margin-left: 90px;
+		}
+
+
+
+
+</style>
+
+<body>
+	<main>
+
+				<div class="etapa-1">
+
+								<div class="esquadro">	
+										<img src="imagem/logo.png">
+											<h1>
+												DogLove
+											</h1>
+
+
+											<div class="botao">
+	
+											</div>
+								</div>
+
+									
+
+
+								<div class="painel1">
+									<img src="imagem/dog1.jpg">
+								</div>
+
+
+
+						<div class="divisao1">	
+							<img src="imagem/NFT.png">		
+						</div>
+
+						<div class="divisao2">
+							<img src="imagem/swap.png">			
+						</div>
+
+				</div>
+
+
+
+
+
+	<div class="etapa-2">
+
+				<div class="Projeto1">
+					<h1>SOBRE O PROJETO</h1>
+					
+						<h2>
+							O Doge Love é um token deflacionário <br>
+							projetado para se tornar mais escasso ao <br>
+							longo do tempo. Com o passar do tempo <br>
+							veja o crescimento do token crescer em sua <br>
+							carteira, Juntos somos mais.Com uma taxa de 5% <br>
+							(Que vão para as queimas de tokens)<br>
+							de cada transação em cadeia que <br>
+							acontece no ecossistema. A comunidade <br>
+							que estiver holdando o tokens, ganhará <br>
+							beneficios ao longo do tempo, e com o acumulo de 5% <br>
+							das transações todo final de mês iremos queimar o <br>
+							total acumulado.<br>
+					</h2>
+
+				</div>
+
+
+
+
+			<div class="Projeto2">
+
+				<div class="reflex">
+					<img src="imagem/reflex.png">
+
+					<h3>
+						A cada transação dos 5% que sera acumulado no final de cada mês, 
+						sera queimado todo inicio de mês além da "queima surpresa" de cada mês.
+					</h3>
+				</div>
+
+
+
+				<div class="mao">
+					<img src="imagem/mao.png">
+
+					<h3>
+						Temos uma carteira de caridade designada que recebe redistribuições que são usadas para apoiar nossos parceiros de caridade.
+					</h3> 
+					
+				</div>
+
+
+				<div class="grafico">
+					<img src="imagem/grafico.png">
+
+					<h3>
+						Assim como seu "Pai" Baby Doge, nos iremos revolucionar com nossas doações para 
+						assim conquistarmos mais detentores e crescermos perante ao mercado.
+					</h3> 
+					
+				</div>
+
+
+<hr/>
+
+
+				<div class="baby">
+					<img src="imagem/placa.png">
+
+					<div class="box1">
+						<p>Fase 1</p>
+
+						<h2>
+							- Queimas de Comemoração do Lançamento
+						</h2>
+
+						<h2>
+							- 500 Membros no Twiter
+						</h2>
+
+						<h2>
+							- Impulso de Marketing
+						</h2>
+
+					</div>
+
+
+					<div class="box2">
+						<p>Fase 2</p>
+
+
+						<h2>
+							- Queimas de Tokens 50q
+						</h2>
+
+						<h2>
+							- 1000 Membros no Twiter
+						</h2>
+
+						<h2>
+							- Primeira Listagem
+						</h2>
+
+					</div>
+
+
+					<div class="box3">
+						<p>Fase 3</p>
+
+
+						<h2>
+							- Redesenho do Site!
+						</h2>
+
+						<h2>
+							- Lançamento dos NFTs
+						</h2>
+
+						<h2>
+							- Certik
+						</h2>
+ 
+					</div>
+
+				</div>	
+
+
+
+			<div class="Formulario">
+
+
+					<div class="contato">
+						<h2>Fomulario</h2>
+
+						<form method="POST" accept="./email.php">
+						<input class="field" name="Name" placeholder="Name" required="">
+						<input class="field" name="E-mail" placeholder="Email" required="">
+						<button class="bottom" type="Submit">Enviar</button>
+
+
+					</div>
+
+
+			</div>
+
+
+
+				<div class="Cartao">
+
+						<h2>				
+							Cartão Dog Love	
+						</h2>
+
+
+									<img src="imagem/cartaoDog.jpg">
+
+
+								<h3>
+								- Capacidade de carregar os saldos Fiat com transferência bancária<br>
+								- Capacidade de comprar criptomoedas<br>
+								- Capacidade de enviar criptomoedas<br>
+								- Capacidade de trocar moedas criptográficas por fiat<br>
+								- Terá a nova tecnologia TextBit, o que significa que os usuários podem <br>
+								enviar mensagens de texto DogLove para qualquer pessoa em qualquer <br>
+								lugar do mundo usando um número de telefone (aplicam-se restrições).<br>
+								*O cartão está atualmente pendente de conclusão pelo provedor terceirizado*
+							</h3>
+
+
+				</div>
+
+
+
+	<div class="End-painel">
+
+		<div class="parte1">
+
+			<div class="certik">
+				<img src="imagem/certik.png">
+			</div>
+
+	
+				<div class="logomini">
+						<img src="imagem/logo.png">
+				</div>
+
+		</div>
+
+
+		<div class="parte2">
+
+				<div class="e-mail">	
+					<form method="POST" accept="./email.php">
+						<input type="e-mail" name="e-mail" required="">
+						<button type="Submit">send</button>
+						
+					</form>
+
+
+				</div>
+
+
+					<h2>
+						Copyright ® 2022 Baby Doge. All Rights Reserved<br>
+						Privacy Policy - Terms & Conditions<br>
+						<br>
+						Baby Doge is not an investment and created as a meme parody like <br>
+						doge. Baby Doge makes no promises and is not responsible for any <br>
+						losses or errors use at your own risk. Baby Doge is not affiliated with DogeCoin.
+					</h2>
+			
+		</div>
+
+		<div class="parte3">
+
+				<div class="tele">
+							<img src="imagem/tele.png">
+				</div>
+				
+		</div>
+
+
+	</div>
+
+	</main>
+
+</body>
+
+
+
+</html>
+
